@@ -1,0 +1,70 @@
+*{
+    font-style: 'poppins','sans-serif';
+}
+
+
+
+.grad{
+/* background: #0B9688;
+background: linear-gradient(135deg, #0B9688, #82DAAD); */
+
+background: #000428; 
+background: -webkit-linear-gradient(to right, #004e92, #000428);
+background: linear-gradient(to right, #004e92, #000428); 
+
+/* background-image: linear-gradient(to right top, #a1afc3, #70c6e2, #0bddd8, #57eda1, #bff150); */
+
+/* background-image: linear-gradient(to right, #434343 0%, black 100%); */
+/* 
+background: #0f0c29; 
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); */
+
+/* background-size: 100vw; */
+}
+
+.bgopa{
+    background-color: rgba(255, 255, 255, 0.15);
+    /* background-image: url("tac.png"); */
+/* 
+    background: #000428;
+background: -webkit-linear-gradient(to right, #004e92, #000428);
+background: linear-gradient(to right, #004e92, #000428); */
+}
+
+.shadow{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.tic-tac-toe, .box {
+    aspect-ratio: 1/1;
+}
+
+.box2, .box1, .box4, .box5{
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+.box3,.box6{
+    border-bottom: 2px solid white;
+}
+.box7, .box8{
+    border-right: 2px solid  white;
+}
+
+.win{
+    background-color: rgba(0, 255, 0, 0.3);
+}
+
+.wrap{
+    display: grid;
+    place-items: center;
+}
+
+.mwidth{
+    width: 25%;
+}
+@media screen and (max-width: 800px) {
+    .mwidth{
+        width: 80%;
+    }
+}
